@@ -15,12 +15,17 @@
   color: white;
   text-decoration: none;
   font-family: Montserrat;
+  transition: color 0.2s linear;
+  -webkit-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -ms-transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
 }
 .navbaritems:hover {
   color: yellow;
   text-decoration: none;
-  animation-name: color !important;
-  animation-duration: 0.6s;
+  animation-name: color3 !important;
+  animation-duration: 0.35s;
 }
 #brand {
   color: yellow;
@@ -35,13 +40,18 @@
 }
 #button {
   background-color: #ffc800;
+  transition: background-color 0.3s linear;
   color: white;
   border: none;
+  -webkit-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -ms-transition: background-color 0.3s linear;
+  -o-transition: background-color 0.3s linear;
 }
 #button:hover {
   background-color: #c79d04;
-  animation-name: color2 !important;
-  animation-duration: 0.6s;
+  animation-name: color2;
+  animation-duration: 0.4s;
 }
 #sec2header {
   font-family: Montserrat;
@@ -62,7 +72,7 @@
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: rgb(255, 217, 0);
+  background-color: #ffc800;
 }
 .overlay2 {
   position: absolute;
@@ -74,7 +84,7 @@
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: rgb(255, 217, 0);
+  background-color: #ffc800;
 }
 .overlay2 .overlayicon {
   color: white;
@@ -111,7 +121,7 @@
 .aboutimage {
   border: solid rgb(238, 236, 236) 8px;
 }
-@keyframes color {
+@keyframes color3 {
   from {
     color: white;
   }
@@ -144,7 +154,7 @@
     width: 100%;
     opacity: 0;
     transition: 0.5s ease;
-    background-color: rgb(241, 241, 76);
+    background-color: #ffc800;
   }
   .overlay2 {
     position: absolute;
@@ -156,7 +166,7 @@
     width: 100%;
     opacity: 0;
     transition: 0.5s ease;
-    background-color: rgb(241, 241, 76);
+    background-color: #ffc800;
   }
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
@@ -170,7 +180,7 @@
     width: 100%;
     opacity: 0;
     transition: 0.5s ease;
-    background-color: rgb(241, 241, 76);
+    background-color: #ffc800;
   }
   .overlay2 {
     position: absolute;
@@ -182,7 +192,7 @@
     width: 100%;
     opacity: 0;
     transition: 0.5s ease;
-    background-color: rgb(241, 241, 76);
+    background-color: #ffc800;
   }
 }
 #sec2 {
